@@ -8,6 +8,10 @@
 3. [Exploratory Data Analysis (EDA)](#3Exploratory-Data-Analysis-EDA)
 4. [Baseline Model (Non-Convolutional)](#4Baseline-Model-Non-Convolutional)
 5. [Convolutional Neural Network Architecture](#5Convolutional-Neural-Network-Architecture)
+6. [Controlled Experiments](#6Controlled-Experiments)
+7. [Deployment with sagemaker](#7Deployment-with-sagemaker)
+8. [Conclusion](#8Conclusion)
+9. [Author](#9Author)
 
 ---
 
@@ -130,6 +134,22 @@ Here we choose 3x3 kernel size as the baseline and compare it to 5x5 and 7x7. An
 
 ![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/depth.PNG)
 
+Now we can see the loss and accuracy of the model with 3x3 kernel size and 32 filters:
+
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/cnnLossVsAccurancy.PNG)
+
+After that we can see the difference between the baseline model and the convolutional model with 3x3 kernel size and 32 filters:
+
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/baselineVsCnn.PNG)
+
+And we can see the new photos of the model with 3x3 kernel size and 32 filters:
+
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/newPhotos.PNG)
+
+Last we can see the compresive model comparing the baseline model with the convolutional model with 3x3 kernel size and 32 filters:
+
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/cnC.PNG)
+
 ---
 
 # 7. Deployment with sagemaker:
@@ -177,3 +197,10 @@ Compared to the baseline model, the CNN performed better in terms of generalizat
 First of all, the controlled experiments point out that an influence of the architecture’s choice, such as kernel size, depth, or the usage of pooling, on the model’s performance is crucial. It is worth mentioning that small differences in the convolutional architecture’s choice entail considerable trade-offs from the model’s complexity.
 
 Overall, this work reinforces the need to understand the role of architectural reasoning in neural network design. Rather than viewing the system as a box, this helps us understand how efficient and interpretable machine learning systems can be created.
+
+---
+
+# 9. Author
+- Camilo Fernandez [GitHub](https://github.com/CamiloFdez)
+
+---
