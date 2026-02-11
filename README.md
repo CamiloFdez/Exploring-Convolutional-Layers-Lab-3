@@ -162,7 +162,7 @@ First we go to aws and to sagemaker, after that we open a jupyter notebook insta
 After that we create a notebook and we upload the dataset and the notebook created:
 
 ![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/startingjupiterlab3.PNG)
-![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/.PNG)
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/showJupyterNotebook.PNG)
 
 Then we run the notebook in sagemaker and we can see the results:
 
