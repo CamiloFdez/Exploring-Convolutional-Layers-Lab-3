@@ -148,7 +148,7 @@ And we can see the new photos of the model with 3x3 kernel size and 32 filters:
 
 Last we can see the compresive model comparing the baseline model with the convolutional model with 3x3 kernel size and 32 filters:
 
-![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/cnC.PNG)
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/cmC.PNG)
 
 ---
 
