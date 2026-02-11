@@ -53,6 +53,9 @@ Preprocessing steps:
 
 See the notebook for visual examples and analysis.
 
+Here are some sample images from the dataset:
+![image](https://example.com/sample_images.png)
+
 ---
 
 # 4. Baseline Model (Non-Convolutional)
