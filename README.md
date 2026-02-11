@@ -157,32 +157,32 @@ For the deployment of the model we have used AWS Sagemaker, which is a fully man
 
 First we go to aws and to sagemaker, after that we open a jupyter notebook instance and create a new notebook.
 
-![image](https://github.com/CamiloFdez/-Logistic-Regression-AREP-Lab2/blob/main/images/jupitersagemaker.PNG)
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/jupitersagemaker.PNG)
 
 After that we create a notebook and we upload the dataset and the notebook created:
 
-![image](https://github.com/CamiloFdez/-Logistic-Regression-AREP-Lab2/blob/main/images/startingjupiter.PNG)
-![image](https://github.com/CamiloFdez/-Logistic-Regression-AREP-Lab2/blob/main/images/.PNG)
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/startingjupiterlab3.PNG)
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/.PNG)
 
 Then we run the notebook in sagemaker and we can see the results:
 
-![image](https://github.com/CamiloFdez/-Logistic-Regression-AREP-Lab2/blob/main/images/.PNG)
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/results.PNG)
 
 Now we have to create a bucket in s3 to store the model:
 
-![image](https://github.com/CamiloFdez/-Logistic-Regression-AREP-Lab2/blob/main/images/s3nucket.PNG)
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/s3bucket.PNG)
 
 When the bucket is created we can save the model in the bucket:
 
-![image](https://github.com/CamiloFdez/-Logistic-Regression-AREP-Lab2/blob/main/images/tars3.PNG)
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/tarslab3.PNG)
 
 After that we have to go to sagemaker and create a model:
 
-![image](https://github.com/CamiloFdez/-Logistic-Regression-AREP-Lab2/blob/main/images/creatingmodel.PNG)
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/creatingmodellab3.PNG)
 
 Due to AWS Lab restrictions, real-time endpoint deployment was not permitted:
 
-![image](https://github.com/CamiloFdez/-Logistic-Regression-AREP-Lab2/blob/main/images/deploy.PNG)
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/deployerror.PNG)
 
 Instead, inference was successfully demonstrated locally using the trained model artifact.
 
