@@ -89,7 +89,7 @@ This model establishes a baseline for comparison.
 
 Now we will see the architecture of the baseline model with the summary of the model using tensorflow:
 
-![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/baselineModelSummary.PNG)
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/baselinemodelSummary.PNG)
 
 After seeing the summary we can see the epochs and the accuracy of the model:
 
