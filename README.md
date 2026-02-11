@@ -53,8 +53,13 @@ Preprocessing steps:
 
 See the notebook for visual examples and analysis.
 
-Here are some sample images from the dataset:
-![image](https://example.com/sample_images.png)
+Here are some sample images from the dataset first of all the class distribution and then the images themselves:
+
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/classDistribution.PNG)
+
+And now some sample images from the dataset:
+
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/photosDataset.PNG)
 
 ---
 
@@ -78,6 +83,18 @@ Observations:
 
 This model establishes a baseline for comparison.
 
+Now we will see the architecture of the baseline model with the summary of the model using tensorflow:
+
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/baselineModelSummary.PNG)
+
+After seeing the summary we can see the epochs and the accuracy of the model:
+
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/epoch.PNG)
+
+And last but not least the confusion matrix of the model, that shows the accuracy vs loss of the model:
+
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/accurrancyvsloss.PNG)
+
 ---
 
 # 5. Convolutional Neural Network Architecture
@@ -99,6 +116,31 @@ Each choice is justified based on:
 - Parameter efficiency
 - Feature hierarchy
 
+Here we can see with tensor flow the conventional neural network architecture that we have implemented:
+
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/cnnModel.PNG)
+
 ---
 
-# 
+# 6. Controlled Experiments
+
+One convolutional parameter is varied while keeping all others fixed.
+
+Here we choose 3x3 kernel size as the baseline and compare it to 5x5 and 7x7. And we can see the depth of 3x3 kernel size with 32 filters and then with 64 filters as we show the results of the experiments in the following images:
+
+![image](https://github.com/CamiloFdez/Exploring-Convolutional-Layers-Lab-3/blob/main/images/depth.PNG)
+
+---
+
+# 7. Deployment with sagemaker:
+
+---
+
+# 8. Conclusion
+This project proves that convolutional neural networks are not just enhanced forms of fully connected models; they actually embed powerful inductive biases appropriate to images.
+
+Compared to the baseline model, the CNN performed better in terms of generalization with many fewer parameters by utilizing the benefits of local connectivity, although it used weight sharing and other spatial hierarchies. The benefits enable the layers of the convolutional network to efficiently learn relevant features in the input data, such as edges and texture.
+
+First of all, the controlled experiments point out that an influence of the architecture’s choice, such as kernel size, depth, or the usage of pooling, on the model’s performance is crucial. It is worth mentioning that small differences in the convolutional architecture’s choice entail considerable trade-offs from the model’s complexity.
+
+Overall, this work reinforces the need to understand the role of architectural reasoning in neural network design. Rather than viewing the system as a box, this helps us understand how efficient and interpretable machine learning systems can be created.
